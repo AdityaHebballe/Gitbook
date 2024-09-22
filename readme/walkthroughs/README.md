@@ -1,2 +1,2 @@
-# Walkthroughs
+# 🚶 Walkthroughs
 

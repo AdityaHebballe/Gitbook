@@ -92,7 +92,7 @@
   * [Buffer Overflow](readme/buffer-overflow.md)
   * [Miscellaneous](readme/miscellaneous.md)
   * [Ⓜ️ Metasploit](readme/m-metasploit.md)
-  * [🚶Walkthroughs](readme/walkthroughs/README.md)
+  * [🚶 Walkthroughs](readme/walkthroughs/README.md)
     * [Hack The Box](readme/walkthroughs/hack-the-box/README.md)
       * [Absolute HTB](readme/walkthroughs/HackTheBox/Absolute-HTB.md)
       * [Active HTB](readme/walkthroughs/hack-the-box/active-htb.md)
