@@ -30,6 +30,4 @@ Join me on my journey to where breaking limits (and warranties) is all part of t
 
 <figure><img src=".gitbook/assets/warranty.jpg" alt=""><figcaption><p>Pentesting. Get it?</p></figcaption></figure>
 
-
-
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/oscp.png" alt=""><figcaption></figcaption></figure>
