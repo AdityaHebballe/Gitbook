@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"14d44b00dbd2d007","type":"file","file":"Hacking/HackTheBox/Kioptrix.md","x":-480,"y":-380,"width":520,"height":520},
+		{"id":"e90a2e7f99c6c30a","type":"text","text":"**Versions**\n- Apache/1.3.20(Unix)(Red-Hat/Linux) -- ***nmap***\n- SMB - Unix (Samba 2.2.1a)  --***metasploit-smb_version***\n-  Webalizer Version 2.01 -- http://192.168.161.130/usage/usage_202401.html\n- SSH - OpenSSH 2.9p2 --***nmap***","x":160,"y":-400,"width":460,"height":260},
+		{"id":"4c13d339b51a60d7","type":"file","file":"Images/Test Website.png","x":820,"y":-681,"width":400,"height":90},
+		{"id":"4560589994da676f","type":"file","file":"Images/nikto.txt","x":700,"y":-250,"width":400,"height":50},
+		{"id":"d5c3fd6195ef00a8","type":"file","file":"Images/nmap.txt","x":700,"y":-400,"width":400,"height":52},
+		{"id":"512d9b62763c05b2","type":"file","file":"Images/Test Website 2.png","x":83,"y":-760,"width":617,"height":248},
+		{"id":"2a3b7bb157264ced","type":"text","text":"- **Google** \n- **searchsploit**(if no google)","x":143,"y":11,"width":213,"height":106},
+		{"id":"424b7ab7049139b3","type":"text","text":"**Scanning tools:**\n- nmap\n- masscan\n- metasploit/portscan","x":125,"y":180,"width":250,"height":140},
+		{"id":"6ad682ff70d38a33","type":"text","text":"**Leads**\n- **SMB**- ~~Led to password protected deadend~~ \n\t- https://www.infosecmatter.com/metasploit-module-library/?mm=exploit/linux/samba/trans2open (since ipc has anonymous access)\n\t- https://www.exploit-db.com/exploits/10 (remote code execution)\n- **SSH** - Password protected and touching it will lead to exploits\n- **SSL** - [[Kioptrix#SSL remote shell]] ","x":409,"y":-80,"width":582,"height":288}
+	],
+	"edges":[
+		{"id":"1b614a3243876bc5","fromNode":"14d44b00dbd2d007","fromSide":"right","toNode":"e90a2e7f99c6c30a","toSide":"left"},
+		{"id":"b4f20c1e20a0da67","fromNode":"14d44b00dbd2d007","fromSide":"right","toNode":"2a3b7bb157264ced","toSide":"left"},
+		{"id":"dc0587f45101764e","fromNode":"2a3b7bb157264ced","fromSide":"right","toNode":"6ad682ff70d38a33","toSide":"left"},
+		{"id":"5790ece7b7fc4ac3","fromNode":"e90a2e7f99c6c30a","fromSide":"right","toNode":"4560589994da676f","toSide":"left"},
+		{"id":"7fc84aa57ea3a7fc","fromNode":"e90a2e7f99c6c30a","fromSide":"right","toNode":"d5c3fd6195ef00a8","toSide":"left"},
+		{"id":"790824734cb8cffe","fromNode":"e90a2e7f99c6c30a","fromSide":"top","toNode":"512d9b62763c05b2","toSide":"bottom"},
+		{"id":"782983e7235921a8","fromNode":"e90a2e7f99c6c30a","fromSide":"top","toNode":"4c13d339b51a60d7","toSide":"bottom"},
+		{"id":"0b05876e6af37b5e","fromNode":"2a3b7bb157264ced","fromSide":"bottom","toNode":"424b7ab7049139b3","toSide":"top"}
+	]
+}
