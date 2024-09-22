@@ -92,4 +92,5 @@
   * [Buffer Overflow](readme/buffer-overflow.md)
   * [Miscellaneous](readme/miscellaneous.md)
   * [Ⓜ️ Metasploit](readme/m-metasploit.md)
-* [Walkthroughs](walkthroughs.md)
+  * [Walkthroughs](readme/walkthroughs/README.md)
+    * [Page 1](readme/walkthroughs/page-1.md)
