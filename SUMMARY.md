@@ -74,6 +74,7 @@
     * [🐚 Shells & Payloads](readme/exploitation/shells-and-payloads.md)
     * [🔐 Password Attacks](readme/exploitation/password-attacks.md)
   * [🕸️ Web Applications](readme/web-applications/README.md)
+    * [SSRF](readme/web-applications/ssrf.md)
     * [📋 Web Application Checklist](readme/web-applications/web-application-checklist.md)
     * [💉 SQL Injection](readme/web-applications/sql-injection.md)
     * [\</> Command Injections](readme/web-applications/less-than-greater-than-command-injections.md)
