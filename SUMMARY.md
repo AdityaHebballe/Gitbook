@@ -75,7 +75,6 @@
     * [🔐 Password Attacks](readme/exploitation/password-attacks.md)
   * [🕸️ Web Applications](readme/web-applications/README.md)
     * [📋 Web Application Checklist](readme/web-applications/web-application-checklist.md)
-    * [🛢Attacking SQL](readme/web-applications/attacking-sql.md)
     * [💉 SQL Injection](readme/web-applications/sql-injection.md)
     * [\</> Command Injections](readme/web-applications/less-than-greater-than-command-injections.md)
     * [🏞️ Path Traversal & File Inclusion](readme/web-applications/path-traversal-and-file-inclusion.md)

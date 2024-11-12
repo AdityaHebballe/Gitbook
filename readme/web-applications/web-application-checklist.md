@@ -23,14 +23,14 @@ curl -s http://192.168.219.140:8000/ | html2markdown
 nmap -sV -p8081 --script http-shellshock --script-args uri=/cgi-bin/user.sh,cmd=echo\;/bin/ls 127.0.0.1
 ```
 
-* [ ] Try DoNotExist.php, DoNotExist.html, DoNotExist to check if the website 404 message changes . Refer snoopy ippsec.&#x20;
+* [ ] Try DoNotExist.php, DoNotExist.html, DoNotExist to check if the website 404 message changes . Refer snoopy ippsec.
 * [ ] **Always add the DNS address**
 * [ ] Check for default passwords
 * [ ] Check for headers if any special header required to access vhost
 * [ ] Nmap http enum scan: `sudo nmap -p80 --script=http-enum <ip>`
 * [ ] In curl use `--data-urlencode` to automaticatlly url encode
 * [ ] If _Apache 2.4.49_ then path traversal is vulnerable.
-* [ ] phpinfo for path:&#x20;
+* [ ] phpinfo for path:
 
 <figure><img src="../../.gitbook/assets/Web app checklist.png" alt=""><figcaption></figcaption></figure>
 
@@ -73,7 +73,7 @@ Use [git-extractor](https://github.com/internetwache/GitTools)
     There are other worldlists to fuzz for LFI as well.
 * [ ] [file-upload-attacks.md](file-upload-attacks.md "mention")
 * [ ] [idor-insecure-direct-object-references.md](idor-insecure-direct-object-references.md "mention")
-* [ ] [sql-injection.md](sql-injection.md "mention") & [attacking-sql.md](attacking-sql.md "mention")
+* [ ] [sql-injection.md](sql-injection.md "mention") & [Broken link](broken-reference "mention")
 * [ ] [xss-cross-site-scripting.md](xss-cross-site-scripting.md "mention")
 * [ ] [xxe-xml-external-entity.md](xxe-xml-external-entity.md "mention")
 * [ ] [log4shell.md](log4shell.md "mention")
